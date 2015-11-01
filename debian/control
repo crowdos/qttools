@@ -135,16 +135,3 @@ Description: Qt 5 tools debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 tools and tools
  libraries.
-
-Package: qttools5-examples-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: qttools5-dbg (= ${binary:Version}),
-         qttools5-examples (= ${binary:Version}),
-         ${misc:Depends}
-Description: Qt 5 tools examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 tools examples.

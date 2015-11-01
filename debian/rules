@@ -19,5 +19,4 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_strip:
-	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
 	dh_strip --remaining-packages --dbg-package=qttools5-dbg
