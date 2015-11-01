@@ -46,7 +46,7 @@ Description: Qt 5 Designer components module
 Package: qdbus-qt5
 Architecture: any
 Section: utils
-Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 D-Bus tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -95,7 +95,7 @@ Description: Qt 5 tools private development files
 Package: qttools5-dev-tools
 Architecture: any
 Section: devel
-Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5sql5-sqlite
 Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
